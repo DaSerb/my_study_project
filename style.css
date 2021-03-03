@@ -1,0 +1,462 @@
+@font-face{
+    font-family: 'Lato-Light';
+    src: local('Lato-Light'),
+            url(Fonts/Lato-Light.woff2),
+            url(Fonts/Lato-Light.woff);
+}
+
+@font-face{
+    font-family: 'Lato-Black';
+    src: local('Lato-Black'),
+            url(Fonts/Lato-Black.woff2),
+            url(Fonts/Lato-Black.woff);
+}
+
+@font-face{
+    font-family: 'Lato-Regular';
+    src: local('Lato-Regular'),
+            url(Fonts/Lato-Regular.woff2),
+            url(Fonts/Lato-Regular.woff);
+}
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Lato-Light', 'Lato-Black', 'Lato-Regular',sans-serif;
+}
+
+.header_top{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    
+}
+.header_container{
+    width: 1140px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #ffffff;
+   
+}
+
+.header_left{
+    display:flex;
+    margin-top: 25px;
+    
+}
+
+.brand_text{
+    margin-left: 13px;
+    padding-bottom: 36px;
+    width: 93px;
+    height: 19px;
+    color: #222222;
+    font-family: 'Lato-Light';
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+    letter-spacing: 0.68px;
+
+}
+
+.header_right{
+    display:flex;
+}
+
+.D{
+    color: #f16d7f;
+    font-family: 'Lato-Black';
+}
+
+.browse_form{
+    align-self: center;
+    
+
+}
+.browse_button{ 
+    color: #222222;
+    line-height: 32px;
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    position: absolute;
+   
+}
+
+    
+.header_form{
+    width: 380px;
+    height: 38px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    margin-top: 32px;
+    margin-right: 349px;
+    margin-left: 37px;
+    position: relative;
+    
+    
+}
+
+.search_form{
+    border: none;
+    padding-left: 16px;
+    position: absolute;
+    left: 93px;
+    top: 10px;
+    height: auto;
+    width: 260px;
+    
+}
+
+.search_form::placeholder{
+    color: #a4a4a4;
+    font-family: 'Lato-Light';
+    font-size: 14px;
+}
+   
+
+.text_browse_button{
+    color: #222222;
+    font-family: 'Lato-Light';
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 15px;
+    
+}
+
+.fa-search{
+    color: #a4a4a4;
+    line-height: 32px;
+    left: 380px; 
+    top: 11px;
+    width:14px;
+    height: 14px;
+    
+}
+
+.fa-caret-down{
+    width: 9px;
+    height: 6px;
+    font-family: 'Font Awesome';
+    font-size: 14px;
+    line-height: 32px; 
+    align-self: center;
+}
+.browse_img{
+    color: #838383;
+    margin-right: 8px;
+}
+
+.account_img{
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+.search{
+    position:absolute;
+    left:380px;
+    height:38px;
+    width:36px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.log_in{
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f; 
+    border: none; 
+    margin-top: 31px;
+}
+.account_text{
+    color: #ffffff;
+    font-family: 'Lato-Light';
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+}
+
+.basket_icon{
+    width:32px;
+    height:29px;
+    margin-right: 26px; 
+    margin-top: 40px;
+}
+
+.menu_links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 680px;
+    height:41px;
+    color: #222222;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.links_container{
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    height: auto; 
+    margin-top: 10px;
+}
+
+.main_link{
+    width: 680px;
+    height: 10px;
+    color: #222222;
+    font-family: 'Lato-Regular';
+
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.main{
+    width: 1140px;
+}
+
+.the_brand_container{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Images/Image_frame.png);
+    height: 665px;
+    background-color: #e8e8e8;
+       
+}
+
+.the_brand_image{
+    width: 1366px;
+    height: 650px;
+    background-image: url(Images/AfroCurly.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.the_brand_text{
+    margin:0;
+    height: 120px;
+    width: 500px;
+    border-left: 12px solid #f16d7f;
+    position: absolute;
+    left: 60px;
+    top:230px;
+    padding-left: 12px;
+
+}
+
+.brand{
+    color: #222222;
+    font-family: 'Lato-Black';
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.lux_fas{
+    font-family: 'Lato-Black';
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.text_pink{
+    color: #f16d7f;
+}
+
+
+.advertisment_images{
+    width: 1140px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 98px;
+    margin-bottom: 100px;
+    display: flex;   
+}
+
+
+.men{
+    width: 560px;
+    height: 542px;
+    background-image: url(Images/Layer_30.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    position:relative;
+
+}
+.text_box{
+    width: 175px;
+    height: 82px;
+    background-color: #ffffff; 
+    position:absolute;
+    top: 26px;
+    
+}
+
+.image_text{
+    
+    font-family: 'Lato-Black';
+    font-size: 18px;
+    font-weight: 400;
+    color: #222222;
+    text-transform: uppercase;
+    margin-left:19px;
+
+
+}
+
+.wide_text{
+    width: 225px;
+    height: 82px;
+    background-color: #ffffff;
+    font-family: 'Lato-Black';
+    font-size: 18px;
+    font-weight: 400;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.text_large{
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    position:absolute;
+    z-index:2;
+   
+    
+}
+
+.acc_background{
+    background-image: url(Images/Rectangle_19.png);
+    width: 560px;
+    height: 261px;
+    position: relative;
+} 
+
+.wallet{
+    position:absolute;
+    right:0px;
+    z-index: 1;
+}
+/*.accessories_img{
+    width: 400px;
+    height: 240px;
+    background-image: url(Images/Layer_37.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+}*/
+
+.women{
+    width: 560px;
+    height: 261px;
+    background-image: url(Images/Layer_32.png);
+    margin-bottom: 20px;
+}
+
+.kids{
+    width: 560px;
+    height: 542px;
+    background-image: url(Images/Layer_31.png);
+
+}
+
+.left_group{
+    margin-right: 20px;
+    
+}
+
+.featured_items{
+    width: 1140px;
+}
+
+.featured_heading{
+    color: #222222;
+    font-family: 'Lato-Black';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+}
+
+.featured_text{
+    color: #9f9f9f;
+    font-family: 'Lato-Light';
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 54px;
+text-align: center;
+/* Text style for "S, hop for" */
+font-style: normal;
+letter-spacing: 0.35px;
+line-height: normal;
+}
+
+.mango_people{
+    width: 157px;
+    height: 11px;
+    color: #222222;
+    font-family:'Lato-Regular';
+    font-size: 13px;
+    font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+}
+
+.feat_list{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 261px);
+    grid-gap: 32px;
+    margin-top: 60px;
+    list-style-type: none; 
+}
+
+.link_button{
+    width: 212px;
+height: 48px;
+background-color: #f16d7f;
+margin-top:100px;
+margin-bottom:100px;
+}
+
+.offer{
+    width: 1140px;
+    height: 529px;
+    background-image: url(Images/Snow_back.png);
+    background-repeat: no-repeat;
+}
+
+.footer_top{
+    height: 438px;
+    background-image: url(Images/Layer_41.png);
+    background-repeat: no-repeat;
+    background-image: url(Images/Rectangle_9_copy.png);
+
+}
